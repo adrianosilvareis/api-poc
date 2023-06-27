@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch ./db/database.json --port 3001"
+    "start": "pm2 start index.js --name backend-poc --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.3"
+    "dotenv": "^16.3.1",
+    "json-server": "^0.17.3",
+    "pm2": "^5.3.0"
   }
 }
