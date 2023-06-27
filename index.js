@@ -11,3 +11,5 @@ server.use(router);
 server.listen(process.env.PORT ?? 3001, () => {
   console.log("JSON Server is running");
 });
+
+console.log(`Server running at process.env.PORT http://localhost:${process.env.PORT}/`)

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --name backend-poc --watch"
+    "start": "pm2 start index.js --name backend-poc --watch && pm2 logs backend-poc"
   },
   "author": "",
   "license": "ISC",
